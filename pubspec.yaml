@@ -1,0 +1,47 @@
+name: map_solution
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  json_serializable: ^6.7.1
+
+  stacked: ^3.4.1
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.0.1
+  http: ^0.13.4
+  location: ^5.0.3
+  address_search_field: ^5.0.3
+
+
+
+
+
+  geocoder2: ^1.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+
+
+flutter:
+
+
+  uses-material-design: true
